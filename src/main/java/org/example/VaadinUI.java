@@ -91,7 +91,7 @@ public class VaadinUI extends UI {
             Notification.show("Creating cache",
                     Notification.Type.WARNING_MESSAGE);
             // You probably don't want to do things like this unless you are NOT
-            // using Java EE or Spring. See TODO as well
+            // using Java EE or Spring. See PhoneBookService class.
             final CachingProvider cachingProvider = Caching.getCachingProvider();
             final CacheManager mgr = cachingProvider.getCacheManager();
 
